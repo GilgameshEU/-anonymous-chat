@@ -3,7 +3,7 @@ import router from "./routes/index.js";
 import cors from "cors";
 const app = express();
 
-app.use(cors({ credentials: true, origin: ["http://localhost:3000", "https://anonymous-chat-front.vercel.app"], methods: ["GET", "POST", "DELETE", "PUT"] }));
+app.use(cors({ credentials: true, origin: ["http://localhost:3000", "https://main.d3gmh33f70aijh.amplifyapp.com"], methods: ["GET", "POST", "DELETE", "PUT"] }));
 // app.options("*", cors());
 app.use(express.json());
 app.use(router);
