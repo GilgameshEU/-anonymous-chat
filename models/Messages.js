@@ -30,9 +30,6 @@ const Messages = db.define("Messages", {
   },
 });
 
-// ChatUsers.hasMany(Messages);
-// Messages.belongsTo(ChatUsers);
-
 (async () => {
   await db.sync();
 })();
